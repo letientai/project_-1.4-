@@ -5,7 +5,6 @@
 .container-flui{
     width: 1350px;
     margin: auto;
-    height: 3000px;
     position: relative;
 }
 
@@ -224,9 +223,15 @@ figure.snip0019:hover figcaption::before {
   display: flex;
   margin: auto;
 }
-.inf .imgs img{
+.inf .img1 img{
   width: 100%;
   clip-path: polygon(39% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.inf .img2 img{
+  width: 100%;
+  clip-path: polygon(0 0, 90% 0, 50% 100%, 0% 100%);
+
 }
 
 .custom-btn {
@@ -510,4 +515,38 @@ figure.snip0019:hover figcaption::before {
   50%,100% {
     bottom: 100%;
   }
+}
+
+.content4{
+  height: 250px;
+  width: 87%;
+  margin: auto;
+  margin-top: 60px;
+}
+.imga{
+  width: 40%;
+  background-image: url("./imgs/s-5.jpg");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  clip-path: polygon(0% 0%, 76.5% 0%, 100% 50%, 76.5% 100%, 0% 100%);
+}
+.imgb{
+  width: 40%;
+  background-image: url("./imgs/5a313636d01a19a2a659b280fb17eaee.jpg");
+  /* clip-path: polygon(100% 0, 70% 50%, 100% 100%, 0% 100%, 30% 50%, 0% 0%); */
+  clip-path: polygon(100% 0, 77% 50%, 100% 100%, 0% 100%, 23% 50%, 0% 0%);
+
+  background-size: cover ;
+  background-repeat: no-repeat ;
+  margin-left: -80px;
+
+}
+.imgc{
+  width: 40%;
+  background-image: url("./imgs/top-10-sieu-xe-the-thao-dat-nhat-the-gioi-Hinh-9.jpeg");
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  clip-path: polygon(100% 0%, 100% 54%, 100% 100%, 23% 100%, 0% 50%, 23% 0);
+
+  margin-left: -80px;
 }
